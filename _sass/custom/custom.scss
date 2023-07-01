@@ -1,0 +1,32 @@
+// Importing bits and pieces of MDS
+@import "shared"; // needed to percent-encode --mds-icon-error and --mds-icon-search-black; https://stackoverflow.com/questions/55213591/sass-invalid-css-after-expected-was-url
+@import "typography";
+@import "forms";
+@import "tables";
+@import "images";
+
+@import "reveal";
+
+///////////////
+// overrides //
+///////////////
+
+body {
+  font-family: var(--mds-font-sans)
+}
+
+a:not([class]) {
+  text-decoration-color: black;
+  text-underline-offset: auto
+}
+
+.main-content ul {
+  list-style: disc inside;
+  padding: revert;
+  margin-top: revert
+}
+
+footer.site-footer > svg {
+  display: block;
+  margin-bottom: 7px
+}
