@@ -4,7 +4,7 @@ lang: en
 title: Resources
 permalink: /resources/
 homologue: /fr/ressources
-nav_order: 5
+nav_order: 4
 ---
 
 # Resources

@@ -4,9 +4,9 @@ lang: en
 title: Acknowledgements
 permalink: /acknowledgements/
 homologue: /fr/remerciements/
-nav_order: 6
+nav_order: 5
 ---
 
 # Acknowledgements
 
-This workshop was based on the content developed by Library Carpentries.
+This workshop is based on the content developed by [Library Carpentry](https://librarycarpentry.org/lc-git/).
